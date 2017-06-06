@@ -1,1 +1,1 @@
-这是一款android tv版配合framework层做的tv launcher app
+杩欐槸涓�娆綼ndroid tv 閰嶅悎framework灞傚仛鐨刲auncher app
