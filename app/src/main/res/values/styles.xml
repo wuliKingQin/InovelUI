@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DefaultCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">180dp</item>
+    </style>
+
+    <style name="DefaultCardStyle" parent="Widget.Leanback.ImageCardViewStyle">
+        <item name="cardBackground">@null</item>
+    </style>
+
+    <style name="DefaultCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/DefaultCardStyle</item>
+        <item name="imageCardViewImageStyle">@style/DefaultCardImageStyle</item>
+    </style>
+
+    <style name="IconCardViewStyle" parent="DefaultCardStyle">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">150dp</item>
+    </style>
+
+    <style name="IconCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">96dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="IconCardTitleStyle" parent="Widget.Leanback.ImageCardView.TitleStyle">
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">2</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SingleLineCardStyle" parent="DefaultCardStyle">
+        <item name="lbImageCardViewType">Title</item>
+    </style>
+
+    <style name="IconCardInfoAreaStyle" parent="Widget.Leanback.ImageCardView.InfoAreaStyle">
+        <item name="android:layout_width">126dp</item>
+        <item name="android:background">@null</item>
+        <item name="layout_viewType">main</item>
+    </style>
+
+    <style name="RecomCardInfoAreaStyle" parent="Widget.Leanback.ImageCardView.InfoAreaStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@null</item>
+        <item name="layout_viewType">main</item>
+    </style>
+
+    <style name="SingleLineCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+    </style>
+
+    <style name="SingleLineCardTitleStyle" parent="Widget.Leanback.ImageCardView.TitleStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="SingleLineCardInfoAreaStyle" parent="Widget.Leanback.ImageCardView.InfoAreaStyle">
+        <item name="android:layout_width">128dp</item>
+        <item name="layout_viewType">main</item>
+    </style>
+
+    <!-- Theme corresponding to the IconCardStyle -->
+    <style name="IconCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/IconCardViewStyle</item>
+        <item name="imageCardViewTitleStyle">@style/IconCardTitleStyle</item>
+        <item name="imageCardViewImageStyle">@style/IconCardImageStyle</item>
+        <item name="imageCardViewInfoAreaStyle">@style/IconCardInfoAreaStyle</item>
+    </style>
+
+    <!-- Theme corresponding to the IconCardStyle -->
+    <style name="RecomCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/IconCardViewStyle</item>
+        <item name="imageCardViewTitleStyle">@style/IconCardTitleStyle</item>
+        <item name="imageCardViewImageStyle">@style/DefaultCardImageStyle</item>
+        <item name="imageCardViewInfoAreaStyle">@style/RecomCardInfoAreaStyle</item>
+    </style>
+
+    <style name="SingleLineCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/SingleLineCardStyle</item>
+        <item name="imageCardViewTitleStyle">@style/SingleLineCardTitleStyle</item>
+        <item name="imageCardViewImageStyle">@style/SingleLineCardImageStyle</item>
+        <item name="imageCardViewInfoAreaStyle">@style/SingleLineCardInfoAreaStyle</item>
+    </style>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.tv.inovelui.ui.fragment.MainFragment"/>
+    <RelativeLayout
+        android:id="@+id/rl_state_bar"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <FrameLayout
+            android:id="@+id/fl_time"
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:background="@color/setting_background">
+            <com.tv.inovelui.ui.view.TimeView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+        <com.tv.inovelui.ui.view.TitleStateBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</RelativeLayout>

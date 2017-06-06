@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Me2-UI</string>
+    <string name="setting">设置</string>
+    <string name="setting_ble">蓝牙</string>
+    <string name="setting_time">时间</string>
+    <string name="setting_rectify">矩形矫正</string>
+    <string name="week_one">星期一</string>
+    <string name="week_two">星期二</string>
+    <string name="week_three">星期三</string>
+    <string name="week_four">星期四</string>
+    <string name="week_five">星期五</string>
+    <string name="week_six">星期六</string>
+    <string name="week_seven">星期日</string>
+</resources>

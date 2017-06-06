@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTitle" parent="Theme.Leanback.Browse">
+        <item name="browseTitleViewLayout">@layout/custom_title</item>
+        <item name="browseRowsMarginTop">180dp</item>
+        <item name="overlayDimMaskColor">@android:color/darker_gray</item>
+    </style>
+</resources>
